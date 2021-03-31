@@ -1,0 +1,30 @@
+/* Fotos Nosotras */
+.somosPhoto1, .somosPhoto2, .somosPhoto3 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 250px;
+    height: 285px;
+    justify-content: center;
+}
+
+/*Foto reseña*/
+.imgReseña {
+    @extend %photo-reseña;
+}
+
+/*Fotos lista*/
+.photoListaBurga, .photoListaBrunch, .photoListaAfter, .photoListaDulce, .photoListaVegan, .photoListaPicada {
+    @extend %photo-lista;
+}
+
+
+.photoListaBurga:hover, .photoListaAfter:hover, .photoListaBrunch:hover, .photoListaDulce:hover,
+.photoListaPicada:hover, .photoListaVegan:hover {
+    border: 2px solid rgb(243, 198, 73);
+}
+
+/*Footer*/
+.imgFooter {
+    height: 40px;
+    width: 40px;
+}

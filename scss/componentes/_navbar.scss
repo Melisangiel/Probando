@@ -1,0 +1,19 @@
+/* Menú */
+.nav-link { 
+    height: 40px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 6;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BA EAT</title>
+</head>
+<body>
+    
+    <!--Hay 3 tipos de enlaces: Absoluto, relativo, o interno/relativo a la raíz-->
+
+    <!--Absoluto: nos redirige a una página externa, a otro recurso web -->
+    <a href="https://google.com" target="_blank">Ver más</a>  <!--HREF siempre nos indica a dónde nos vamos a redireccionar-->  <!--Entre las a va el texto que se va a ver en la web para clickear-->
+
+     <!--Relativo: apunta a otro archivo pero de mi sitio web. En este caso sería el contacto.html que creé antes-->
+    <a href="contacto.html">Contacto</a>
+
+     <!--Interno: van los ID después del hashtag #. Scrollea hasta esa sección -que ya debería estar creada- de nuestra página.-->
+    <a href="#servicios">Servicios</a>
+    <section id="servicios">
+
+    </section>
+    
+<!-- el atributo target="_blank" le dice al link que se abra en otra pestaña-->
+
+<!--IMÁGENES. img es una sola etiqueta con 2 atributos-->
+<!--src significa source (dirección donde se encuentra nuestra imagen. yo en clase agregué la carpeta de imágenes que quería al visual studio. tengo que poner el nombre de la carpeta en el atributo y selecciono cuál)-->
+<!--alt indica la alternativa de texto a la imagen que se muestra
+    alt es la descripción de nuestra imagen
+    alt es la descripción de lo que sucede en nuestra imagen 
+LEER POSTEO DEL FORO QUE SUBIÓ EL PROFESOR. Se escribe NORMAL dentro del alt. Sin guiones y esas cosas-->
+<img src="images/mochi.gif" alt="Mochi está contento y se mueve de arriba pa abajo">
+
+<img src="images/mochi.svg" alt="Mochi en formato SVG">
+
+<header>
+    <!--Esto aparece al comienzo de la web. Contiene elementos-->
+    <img src="images/mochi.jpg" alt="">
+    <ul> <!--Lista desordenada que puede ser nuestro menú-->
+        <li>Quiénes somos</li>
+        <li>¿A dónde salgo hoy?</li>
+        <li>Para ocasiones especiales</li>
+        <li>Contacto</li>
+    </ul>
+    <nav> <!--con esta etiqueta también puedo poner mi menú-->
+        <a href="">Quiénes somos</a>
+        <a href="">¿A dónde salgo hoy?</a>
+        <a href="">Para ocasiones especiales</a>
+        <a href="">Contacto</a>
+    </nav>
+</header>
+
+<main> <!--Suele ser como el centro del body. Ayuda a ordenar-->
+<h1>Sección H1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maxime fugiat assumenda, 
+    ullam sunt aut iste quas excepturi, consectetur fugit accusantium natus illum animi quae veniam harum dolorem soluta modi.
+</p>
+<a href="https://google.com">Ver más</a>
+</main>
+
+<section>
+    <img src="images/mochi.jpg" alt="">
+    <img src="images/mochi.png" alt="">
+    <img src="images/mochi.svg" alt="">
+
+</section>
+
+<footer> <!--acá puede ir por ejemplo link a redes sociales. va abajo-->
+<a href=""></a>
+<a href=""></a>
+</footer>
+
+<!--HTML5 lo que hace es convertir la etiqueta div en etiquetas con nombres fáciles. Es decir, footer, section, header, etc son todos divs (o elemento en bloque)-->
+
+</body>
+</html>

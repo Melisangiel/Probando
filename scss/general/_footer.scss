@@ -1,0 +1,36 @@
+/*Footer*/
+
+.foot {
+    background-color: #343a40;
+}
+
+.footer {
+    font-family: $font-family-2;
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+.footer1 {
+    margin-top: $margin-top-footer;
+    float: left;
+}
+
+.footer2 {
+    margin-top: $margin-top-footer;
+    float: right;
+}
+
+/*Volver Arriba*/
+
+.volverArriba {
+    display: flex;
+    justify-content: center;
+}
+
+.volverArriba2 { 
+    display: flex;
+    justify-content: center;
+}

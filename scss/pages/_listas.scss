@@ -1,0 +1,44 @@
+
+
+/* Dentro de listas.html */
+.listas {
+    .listaContainer {
+        h2 {
+                position: relative;
+                text-align: center;
+                justify-self: c;
+                bottom: -200px;
+                z-index: 2;
+                color: $listaColor;
+                margin-bottom: 20px;
+                font-family: $font-family-1;
+                color: rgb(98, 1, 16);        
+        }
+    }
+}
+
+
+
+
+/*Listas, aparecen también en Index*/
+
+#listas {
+    ul {
+        li {
+        color: $listaColor;
+
+        &:hover { 
+        font-size: 24px;
+        }
+                a{ 
+                font-family: $font-family-2;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 20px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                color: $listaColor;
+                }
+        }
+    }
+}

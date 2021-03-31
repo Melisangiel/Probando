@@ -1,0 +1,24 @@
+body {
+    background-color: bisque;
+}
+
+
+a { 
+    @extend %a-links;
+}
+
+
+/*Paragraph*/
+
+p, .paragraph {
+    font-family: $font-family-2;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+}
+/*No se aplica el color negro a los p y .paragraph*/
+
+.somosContainer, .salgoContainer, .listas, #reseñas{
+@extend %photo-container; 
+}

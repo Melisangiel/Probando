@@ -1,0 +1,63 @@
+/* Contacto */
+.contact-form {
+    background-color: #fff1a1;
+    width: 100%;
+    padding: 40px;
+    margin: 20px 0 10px 0;
+}
+
+.form-row input[type="text"] {
+    width: 40%;
+    font-size: 14px;
+    margin-right: 60%;
+}
+
+.form-row input[type="email"] {
+    width: 100%;
+    font-size: 14px;
+}
+
+.form-row input[type="email"]:invalid {
+    border: 2px solid red;
+}
+
+.form-row label {
+    margin-bottom: 5px;
+    margin-top: 4px;
+    display: block;
+    font-family: $font-family-2;
+    font-weight: bold;
+}
+
+.form-row select {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-row textarea {
+    resize: none;
+    min-height: 200px;
+    width: 100%;
+}
+
+
+.form-row button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ee5833;
+    border: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+
+.form-row button:hover {
+    background-color: $button-color;
+}
+
+.form-row button:active {
+    background-color: darken($button-color, 30%);
+}
